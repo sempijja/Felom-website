@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif, 'Poppins';
   color: #040000;
 }
 
@@ -70,6 +71,8 @@ h2 {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+
+/*Links*/
 a,
 a:hover,
 a:focus {
@@ -263,8 +266,8 @@ a:focus {
 .quote_btn-container a:hover {
   color: #ff8a1d;
 }
-
 /*end header section*/
+
 /* slider section */
 .slider_section {
   -webkit-box-flex: 1;
@@ -279,6 +282,8 @@ a:focus {
   background-size: cover;
   background-position: bottom;
 }
+
+
 
 .slider_section .row {
   -webkit-box-align: center;
@@ -308,12 +313,12 @@ a:focus {
 
 .slider_section .detail-box a {
   display: inline-block;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif, 'Poppins';
   text-transform: uppercase;
   padding: 10px 45px;
   background-color: #ff8a1d;
   border: 1px solid #ff8a1d;
-  border-radius: 5px;
+  border-radius: 24px;
   color: #ffffff;
   margin-top: 15px;
 }
@@ -326,7 +331,9 @@ a:focus {
 .slider_section .img-box img {
   width: 100%;
 }
+/* slider section end */
 
+/* feature section start */
 .feature_section {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
