@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
 
 
 body {
-  font-family: 'Lato', sans-serif, 'Poppins';
+  font-family: 'Lato', sans-serif;
   color: #040000;
 }
 
@@ -69,11 +69,9 @@ body {
 
 h1,
 h2 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif, 'Poppins';
 }
 
-
-/*Links*/
 a,
 a:hover,
 a:focus {
@@ -83,11 +81,8 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
+  background-color: #fdfdfd;
 }
-
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -95,8 +90,8 @@ a:focus {
 }
 
 .header_section .header_top {
-  padding: 15px 0;
-  background-color: #000000;
+  padding: 16px 0;
+  background-color: #bdbdbd;
 }
 
 .header_section .header_top .contact_nav {
@@ -270,8 +265,8 @@ a:focus {
 .quote_btn-container a:hover {
   color: #ff8a1d;
 }
-/*end header section*/
 
+/*end header section*/
 /* slider section */
 .slider_section {
   -webkit-box-flex: 1;
@@ -283,21 +278,8 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative; /* Ensure the pseudo-element is positioned correctly */
   background-size: cover;
   background-position: bottom;
-  overflow: hidden; /* Ensure the content doesn't overflow */
-}
-
-.slider_section .background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensuring the image covers the entire area */
-  opacity: 0.25; 
-  z-index: -1; /* Ensuring the background is behind the content */
 }
 
 .slider_section .row {
@@ -322,13 +304,14 @@ a:focus {
 }
 
 .slider_section .detail-box p {
-  color: #444;
-  font-size: 15px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .slider_section .detail-box a {
   display: inline-block;
-  font-family: 'Merriweather Sans', sans-serif, 'Poppins';
+  font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
   background-color: #ff8a1d;
@@ -341,34 +324,18 @@ a:focus {
 .slider_section .detail-box a:hover {
   background-color: transparent;
   color: #ff8a1d;
-  margin-left: 60%;
-}
-
-/* Hero image*/
-@keyframes scaleIn {
-  0% {
-    transform: scale(0.8);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
 }
 
 .slider_section .img-box img {
   width: 100%;
-  animation: scaleIn 0.8s ease-in-out; /* Duration images comes into view */
 }
 
+/* feature section */
 
-/* slider section end */
-
-/* feature section start */
 .feature_section {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  margin-top: 10%;
+          margin-top: 10%;
 }
 
 .feature_section .feature_container {
@@ -395,6 +362,7 @@ a:focus {
   margin: 0 10px;
   padding: 45px 15px;
   background-color: #ffffff;
+  border-radius: 16px;
   color: #555089;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -440,7 +408,7 @@ a:focus {
   fill: #ffffff;
 }
 
-/* Start of the about section (landing)*/
+/* About section*/
 
 .about_section .row {
   -webkit-box-align: center;
@@ -448,9 +416,11 @@ a:focus {
           align-items: center;
 }
 
-.about_section .detail-box h2 {
-  text-transform: uppercase;
+.about_section .detail-box h1 {
+  font-weight: 400;
   font-weight: bold;
+  margin-bottom: 25px;
+  color: #0355cc;
 }
 
 .about_section .detail-box p {
@@ -467,7 +437,6 @@ a:focus {
   border: 1px solid #0355cc;
   border-radius: 24px;
   color: #ffffff;
-  font-family: 'Poppins';
 }
 
 .about_section .detail-box a:hover {
@@ -479,9 +448,9 @@ a:focus {
   width: 100%;
   border-radius: 24px;
 }
-/*End of the about section (landing) */
 
-/*start of the professional section*/
+/*Professional section*/
+
 .professional_section {
   background-color: white;
 }
@@ -496,14 +465,14 @@ a:focus {
   width: 100%;
 }
 
-.professional_section .detail-box h2 {
-  text-transform: uppercase;
+.professional_section .detail-box h1 {
   font-weight: bold;
   color: #0355cc;
 }
 
-.professional_section .detail-box p {
+.professional_section .detail-box p ul li {
   margin-top: 20px;
+  font-size: 400;
 }
 
 .professional_section .detail-box a {
@@ -512,19 +481,18 @@ a:focus {
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
-  background-color: #ff8a1d;
-  border: 1px solid #ff8a1d;
+  background-color: #0355cc;
+  border: 1px solid #0355cc;
   border-radius: 24px;
   color: #ffffff;
 }
 
 .professional_section .detail-box a:hover {
   background-color: transparent;
-  color: #ff8a1d;
+  color: #0355cc;
 }
-/*end of the professional section*/
 
-/*start of the service section*/
+/* Services section */
 .service_section {
   position: relative;
 }
@@ -625,7 +593,7 @@ a:focus {
           align-items: center;
   text-align: center;
 }
-
+/* Client Section */
 .client_section .box {
   margin: 15px;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -714,6 +682,7 @@ a:focus {
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
+/*Conatct section */
 .contact_section input::-webkit-input-placeholder {
   color: #737272;
 }
@@ -742,7 +711,7 @@ a:focus {
   padding: 10px 55px;
   background-color: #0355cc;
   border: 1px solid #0355cc;
-  border-radius: 0;
+  border-radius: 24px;
   color: #ffffff;
   margin-top: 15px;
 }
@@ -760,6 +729,7 @@ a:focus {
   height: 100%;
 }
 
+/*Where to find us section */
 .info_section {
   padding: 75px 0;
   background-color: #0a0f43;
@@ -884,23 +854,5 @@ a:focus {
   color: inherit;
 }
 
-/* Styles for smaller screens */ 
-@media (max-width: 768px) {
-   .slider_section { 
-    flex-direction: column; 
-    background-position: center; } 
-    
-    .slider_section .background-image { 
-      height: auto; } } 
-      
-      @media (max-width: 480px) { 
-        .slider_section { 
-        padding: 10px; } 
-        
-        .slider_section .background-image { 
-          height: auto; } }
-
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
-
-
