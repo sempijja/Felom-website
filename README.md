@@ -14,9 +14,8 @@ Welcome to the Felom Website Project! This repository contains the source code a
 ---
 
 #### **Technologies Used**  
-- **Frontend**: HTML5, CSS3, JavaScript (or a frontend framework if applicable).  
-- **Design**: Focused on minimalism and user-centric principles.  
-- **Hosting**: Details of the hosting platform (if applicable).  
+- **Frontend**: HTML5, CSS3, JavaScript   
+- **Design**: Focused on minimalism and user-centric principles.   
 
 ---
 
