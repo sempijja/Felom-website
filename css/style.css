@@ -399,7 +399,7 @@ a:focus {
   margin-bottom: 0;
 }
 
-.feature_section .feature_container .box:hover, .feature_section .feature_container .box.active {
+.feature_section .feature_container .box:hover, .feature_section .feature_container .box.active:hover {
   background-color: #ff8a1d;
   color: #ffffff;
 }
@@ -409,7 +409,7 @@ a:focus {
 }
 
 .feature_section .feature_container .box:hover .img-box svg path, .feature_section .feature_container .box.active .img-box svg path {
-  fill: #ffffff;
+  fill: #726dae;
 }
 
 /* About section*/
