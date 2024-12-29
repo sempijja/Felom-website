@@ -1,5 +1,3 @@
-### **README for Felom Website Project**  
-
 #### **Overview**  
 Welcome to the Felom Website Project! This repository contains the source code and assets for the official Felom Company Limited website. The website is designed to showcase Felom's diverse range of services, including solar solutions, furniture, relief items, construction, plumbing, and more. With a modern and user-friendly interface, the site aims to provide visitors with clear, engaging, and informative content about Felom's offerings.  
 
