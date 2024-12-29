@@ -3,25 +3,9 @@
 #### **Overview**  
 Welcome to the Felom Website Project! This repository contains the source code and assets for the official Felom Company Limited website. The website is designed to showcase Felom's diverse range of services, including solar solutions, furniture, relief items, construction, plumbing, and more. With a modern and user-friendly interface, the site aims to provide visitors with clear, engaging, and informative content about Felom's offerings.  
 
----
-
-#### **Features**  
-- **Dynamic Pages**: Dedicated sections for each service, highlighting their unique benefits.  
-- **Responsive Design**: Optimized for seamless viewing on desktops, tablets, and mobile devices.  
-- **SaaS-Inspired Aesthetic**: Clean, professional, and modern design to reflect Felom’s innovative approach.  
-- **Contact Information**: Easy access to Felom’s email, phone number, and location details for inquiries.  
-
----
-
-#### **Technologies Used**  
-- **Frontend**: HTML5, CSS3, JavaScript   
-- **Design**: Focused on minimalism and user-centric principles.   
-
----
 
 #### **Usage**  
 This project is live and intended for Felom Company Limited’s website. It serves as a public-facing platform to inform clients and stakeholders about the company’s services, values, and mission.  
-Test; [Link](https://sempijja.github.io/Felom-website/index.html)
 
 ---
 
